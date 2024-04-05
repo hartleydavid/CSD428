@@ -87,4 +87,5 @@ def my_reduce(my_list, my_function, seed, n = 2):
 #print(my_reduce(my_map(list, my_square), my_sum, 0, 2))
 
 #Uses lambda functions 
-print(my_reduce(my_map(list, lambda x: x*x), lambda a,b: a+b, 0, 2))
+
+print(my_reduce(my_map("abc", lambda x: ord(x)), lambda a,b: a+b, 0, 2))
